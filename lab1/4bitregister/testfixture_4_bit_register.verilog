@@ -1,0 +1,27 @@
+
+// Verilog stimulus file.
+// Please do not create a module in this file.
+
+
+// Default verilog stimulus. 
+
+initial
+begin 
+
+   Clock = 1'b0;
+   D[3:0] = 4'b0000;
+
+   #50
+   Clock = 1'b1;
+   D[3:0] = 4'b0001;
+
+   #50
+   Clock = 1'b0;
+   D[3:0] = 4'b0010;
+
+   #50
+   Clock = 1'b1;
+   D[3:0] = 4'b1001;
+end 
+initial
+   $monitor ($time," D=%b, Clock=%b, Q=%b", D, Clock, Q );
