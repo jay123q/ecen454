@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jay123q
+HostName                       n03-poseidon.olympus.ece.tamu.edu
+ProcessIdentifier              15414
+ProcessCreationTime_UTC        1677442904
+ProcessCreationTime_Readable   Sun Feb 26 14:21:44 2023 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/ugrads/j/jay123q/cadence/Design/inverter_simulate/schematic/sch.oa.cdslck
+TimeEditLocked                 Sun Feb 26 14:22:22 2023 CST
