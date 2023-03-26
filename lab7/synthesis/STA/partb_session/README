@@ -1,0 +1,24 @@
+-------------------------------------------------------
+
+PrimeTime save_session README file
+
+-------------------------------------------------------
+
+PrimeTime Version: 
+	O-2018.06-SP3 for linux64 -- Oct 19, 2018
+Save Session Date:
+	Sat Mar 25 17:30:39 2023
+ 
+-------------------------------------------------------
+
+Command log of this session is saved in "cmd_log".
+If the saved session is moved to a different location, 
+    please update the paths in the cmd_log file accordingly, 
+    in order to use the Constraints in-design flow.
+-------------------------------------------------------
+
+Current Design: cruisecontrol
+
+Technology librares referenced by this session:
+/home/ugrads/j/jay123q/cadence/synthesis/STA/iit018_stdcells.db     iit018_stdcells.db
+-------------------------------------------------------

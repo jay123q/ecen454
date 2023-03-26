@@ -1,0 +1,24 @@
+source /opt/coe/synopsys/pts/O-2018.06-SP3/admin/setup/.synopsys_pt.setup
+gui_start
+get_start
+set search_path "."
+set link_path {* iit018_stdcells.db}
+read_verilog cruisecontrol_netlist.v
+current_design cruisecontrol
+link_design cruisecontrol
+set_capacitance 3 [ get_ports {speed[7] speed[6] speed[5] speed[4] speed[3] speed[2]
+speed[1] speed[0] cruisespeed[7] cruisespeed[6] cruisespeed[5] cruisespeed[4]
+cruisespeed[3] cruisespeed[2] cruisespeed[1] cruisespeed[0] cruisectrl } ]
+set_driving_cell -lib_cell BUFX2 -library iit018_stdcells -pin Y -from_pin A [ get_ports {clk
+reset throttle set accel coast cancel resume brake } ]
+create_clock -period 10.000000 -waveform {0.000000 5.000000} {clk }
+set_input_delay -clock clk -max 4.000000 [get_ports {reset throttle set accel coast
+cancel resume brake }]
+set_input_delay -clock clk -min 0.000000 [get_ports {reset throttle set accel coast
+cancel resume brake }]
+set_input_delay -clock clk -max 4.000000 [get_ports {reset throttle set accel coast cancel resume brake }]
+set_output_delay -clock clk -rise 5.000000 [get_ports {speed[7] speed[6] speed[5]
+speed[4] speed[3] speed[2] speed[1] speed[0] cruisespeed[7] cruisespeed[6]
+cruisespeed[5] cruisespeed[4] cruisespeed[3] cruisespeed[2] cruisespeed[1]
+cruisespeed[0] cruisectrl }]
+max_paths.txt

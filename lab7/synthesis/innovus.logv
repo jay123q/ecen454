@@ -1,0 +1,44 @@
+[03/25 17:32:15      0s] 
+[03/25 17:32:15      0s] Cadence Innovus(TM) Implementation System.
+[03/25 17:32:15      0s] Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+[03/25 17:32:15      0s] 
+[03/25 17:32:15      0s] Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+[03/25 17:32:15      0s] Options:	
+[03/25 17:32:15      0s] Date:		Sat Mar 25 17:32:15 2023
+[03/25 17:32:15      0s] Host:		n01-zeus.olympus.ece.tamu.edu (x86_64 w/Linux 3.10.0-1160.80.1.el7.x86_64) (10cores*40cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB)
+[03/25 17:32:15      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[03/25 17:32:15      0s] 
+[03/25 17:32:15      0s] License:
+[03/25 17:32:15      0s] 		invs	Innovus Implementation System	18.1	checkout succeeded
+[03/25 17:32:15      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[03/25 17:32:37     14s] @(#)CDS: Innovus v18.10-p002_1 (64bit) 05/29/2018 19:19 (Linux 2.6.18-194.el5)
+[03/25 17:32:37     14s] @(#)CDS: NanoRoute 18.10-p002_1 NR180522-1057/18_10-UB (database version 2.30, 418.7.1) {superthreading v1.46}
+[03/25 17:32:37     14s] @(#)CDS: AAE 18.10-p004 (64bit) 05/29/2018 (Linux 2.6.18-194.el5)
+[03/25 17:32:37     14s] @(#)CDS: CTE 18.10-p003_1 () May 15 2018 10:23:07 ( )
+[03/25 17:32:37     14s] @(#)CDS: SYNTECH 18.10-a012_1 () Apr 19 2018 01:27:21 ( )
+[03/25 17:32:37     14s] @(#)CDS: CPE v18.10-p005
+[03/25 17:32:37     14s] @(#)CDS: IQRC/TQRC 18.1.1-s118 (64bit) Fri Mar 23 17:23:45 PDT 2018 (Linux 2.6.18-194.el5)
+[03/25 17:32:37     14s] @(#)CDS: OA 22.50-p083 Tue Jan  2 17:02:41 2018
+[03/25 17:32:37     14s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[03/25 17:32:37     14s] @(#)CDS: RCDB 11.13
+[03/25 17:32:37     14s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_5314_n01-zeus.olympus.ece.tamu.edu_jay123q_ro3jQl.
+
+[03/25 17:32:37     14s] Change the soft stacksize limit to 0.2%RAM (1031 mbytes). Set global soft_stack_size_limit to change the value.
+[03/25 17:32:40     15s] 
+[03/25 17:32:40     15s] **INFO:  MMMC transition support version v31-84 
+[03/25 17:32:40     15s] 
+[03/25 17:32:40     15s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[03/25 17:32:40     15s] <CMD> suppressMessage ENCEXT-2799
+[03/25 17:32:40     15s] <CMD> win
+[03/25 17:49:28    171s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Sat Mar 25 17:49:28 2023
+  Total CPU time:     0:02:51
+  Total real time:    0:17:15
+  Peak memory (main): 471.79MB
+
+[03/25 17:49:28    171s] 
+[03/25 17:49:28    171s] *** Memory Usage v#1 (Current mem = 561.863M, initial mem = 251.492M) ***
+[03/25 17:49:28    171s] *** Message Summary: 0 warning(s), 0 error(s)
+[03/25 17:49:28    171s] 
+[03/25 17:49:28    171s] --- Ending "Innovus" (totcpu=0:02:52, real=0:17:13, mem=561.9M) ---
